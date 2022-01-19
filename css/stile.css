@@ -543,6 +543,15 @@ img {
 .futer-form-button:hover {
   background: var(--btn-fokus);
 }
+.futer-form-button-wrap {
+  position: relative;
+}
+.futer-form-icon {
+  position: absolute;
+  right: 28px;
+  top: 13px;
+}
+
 /* portfolio */
 
 .filters {
@@ -682,6 +691,17 @@ img {
   left: 50%;
   transform: translate(-50%, -50%) scale(1);
   transition: transform 600ms;
+  padding: 40px;
+}
+.modal-title {
+  font-weight: var(--font-weight-bold);
+  font-size: 20px;
+  line-height: 1.15;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--headers-dark-color);
+  text-align: center;
+  margin-bottom: 12px;
 }
 .modal-close {
   width: 30px;
@@ -695,6 +715,32 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.input-text {
+  width: 100%;
+  height: 40px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+}
+.label-text {
+  font-size: 12px;
+  line-height: 1.15;
+  letter-spacing: 0.01em;
+  color: #757575;
+}
+.modal-form-wrap {
+  margin-bottom: 10px;
+}
+.modal-form {
+  position: relative;
+}
+.icon-person-black {
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+.modal-fone-icon {
 }
 .is-hidden {
   opacity: 0;
